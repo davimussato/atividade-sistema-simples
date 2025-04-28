@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registro de Vendas</h2>
+    <form id="formVenda">
+        <select id="funcionarioVenda">
+            <option value="">Selecione o Funcionário</option>
+        </select>
+        <select id="produtoVenda">
+            <option value="">Selecione o Produto</option>
+        </select>
+        <input type="number" id="quantidadeVenda" placeholder="Quantidade Vendida" required>
+        <button type="submit">Registrar Venda</button>
+    </form>
+    
+    <h3>Vendas Realizadas</h3>
+    <ul id="listaVendas"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
